@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ridaluiso.github.io/rdaluiso/sitemap.xml
