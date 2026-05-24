@@ -9,7 +9,16 @@
 <meta name="author" content="Riccardo Daluiso | Researcher">
   <title>Riccardo Daluiso</title>
   <style>
-    body {
+    body
+    <nav>
+  <label for="menu">Sezioni:</label>
+  <select id="menu" onchange="window.location.href=this.value">
+    <option value="">Seleziona...</option>
+    <option value="index.html">Home</option>
+    <option value="chi-siamo.html">Chi siamo</option>
+    <option value="contatti.html">Contatti</option>
+  </select>
+</nav>{
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       color: #333;
